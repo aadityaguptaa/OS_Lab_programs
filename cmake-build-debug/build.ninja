@@ -141,17 +141,6 @@ build SJF.exe: C_EXECUTABLE_LINKER__SJF_Debug CMakeFiles/SJF.dir/CPU_Scheduling_
 
 
 #############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rocko\CLionProjects\OS_5th_Sem\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
-
-#############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
@@ -163,11 +152,57 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target RoundRobin
+
+
+#############################################
+# Order-only phony target for RoundRobin
+
+build cmake_object_order_depends_target_RoundRobin: phony || CMakeFiles/RoundRobin.dir
+
+build CMakeFiles/RoundRobin.dir/CPU_Scheduling_Algorithm/RoundRobin.c.obj: C_COMPILER__RoundRobin_Debug C$:/Users/rocko/CLionProjects/OS_5th_Sem/CPU_Scheduling_Algorithm/RoundRobin.c || cmake_object_order_depends_target_RoundRobin
+  DEP_FILE = CMakeFiles\RoundRobin.dir\CPU_Scheduling_Algorithm\RoundRobin.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\RoundRobin.dir
+  OBJECT_FILE_DIR = CMakeFiles\RoundRobin.dir\CPU_Scheduling_Algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RoundRobin
+
+
+#############################################
+# Link the executable RoundRobin.exe
+
+build RoundRobin.exe: C_EXECUTABLE_LINKER__RoundRobin_Debug CMakeFiles/RoundRobin.dir/CPU_Scheduling_Algorithm/RoundRobin.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RoundRobin.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RoundRobin.exe
+  TARGET_IMPLIB = libRoundRobin.dll.a
+  TARGET_PDB = RoundRobin.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\rocko\CLionProjects\OS_5th_Sem\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build FCFS: phony FCFS.exe
 
 build OS_5th_Sem: phony OS_5th_Sem.exe
+
+build RoundRobin: phony RoundRobin.exe
 
 build SJF: phony SJF.exe
 
@@ -179,7 +214,7 @@ build SJF: phony SJF.exe
 #############################################
 # Folder: C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug
 
-build all: phony OS_5th_Sem.exe FCFS.exe SJF.exe
+build all: phony OS_5th_Sem.exe FCFS.exe SJF.exe RoundRobin.exe
 
 # =============================================================================
 # Built-in targets
