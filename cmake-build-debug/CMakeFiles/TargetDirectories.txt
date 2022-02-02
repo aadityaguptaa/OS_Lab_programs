@@ -1,4 +1,5 @@
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/OS_5th_Sem.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/FCFS.dir
+C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/SJF.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/rebuild_cache.dir

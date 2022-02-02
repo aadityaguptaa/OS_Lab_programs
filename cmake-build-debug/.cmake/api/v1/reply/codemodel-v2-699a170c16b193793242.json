@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "OS_5th_Sem::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-OS_5th_Sem-Debug-61a0c10944392c40314c.json",
 					"name" : "OS_5th_Sem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SJF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SJF-Debug-ef7f52a063aba491c2c9.json",
+					"name" : "SJF",
 					"projectIndex" : 0
 				}
 			]
