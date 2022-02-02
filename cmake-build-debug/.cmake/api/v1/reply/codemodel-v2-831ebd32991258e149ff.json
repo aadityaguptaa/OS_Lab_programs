@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OS_5th_Sem",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FCFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FCFS-Debug-d2c769b7e6716fd6f05d.json",
+					"name" : "FCFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OS_5th_Sem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OS_5th_Sem-Debug-61a0c10944392c40314c.json",
+					"name" : "OS_5th_Sem",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug",
+		"source" : "C:/Users/rocko/CLionProjects/OS_5th_Sem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
