@@ -74,6 +74,39 @@ build OS_5th_Sem.exe: CXX_EXECUTABLE_LINKER__OS_5th_Sem_Debug CMakeFiles/OS_5th_
   TARGET_PDB = OS_5th_Sem.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Priority
+
+
+#############################################
+# Order-only phony target for Priority
+
+build cmake_object_order_depends_target_Priority: phony || CMakeFiles/Priority.dir
+
+build CMakeFiles/Priority.dir/CPU_Scheduling_Algorithm/Priority.c.obj: C_COMPILER__Priority_Debug C$:/Users/rocko/CLionProjects/OS_5th_Sem/CPU_Scheduling_Algorithm/Priority.c || cmake_object_order_depends_target_Priority
+  DEP_FILE = CMakeFiles\Priority.dir\CPU_Scheduling_Algorithm\Priority.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\Priority.dir
+  OBJECT_FILE_DIR = CMakeFiles\Priority.dir\CPU_Scheduling_Algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Priority
+
+
+#############################################
+# Link the executable Priority.exe
+
+build Priority.exe: C_EXECUTABLE_LINKER__Priority_Debug CMakeFiles/Priority.dir/CPU_Scheduling_Algorithm/Priority.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Priority.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Priority.exe
+  TARGET_IMPLIB = libPriority.dll.a
+  TARGET_PDB = Priority.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target FCFS
 
 
@@ -202,6 +235,8 @@ build FCFS: phony FCFS.exe
 
 build OS_5th_Sem: phony OS_5th_Sem.exe
 
+build Priority: phony Priority.exe
+
 build RoundRobin: phony RoundRobin.exe
 
 build SJF: phony SJF.exe
@@ -214,7 +249,7 @@ build SJF: phony SJF.exe
 #############################################
 # Folder: C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug
 
-build all: phony OS_5th_Sem.exe FCFS.exe SJF.exe RoundRobin.exe
+build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe
 
 # =============================================================================
 # Built-in targets

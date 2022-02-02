@@ -3,11 +3,9 @@
 166	396	6655326789768507	FCFS.exe	193db108124c7be3
 2	160	6655354500694623	CMakeFiles/SJF.dir/CPU_Scheduling_Algorithm/SJF.c.obj	71510c3b60b2a4d9
 161	335	6655354502389181	SJF.exe	f397746f232e09b3
-0	140	6655372336577986	CMakeFiles/RoundRobin.dir/CPU_Scheduling_Algorithm/RoundRobin.c.obj	48d428d340abda65
-140	288	6655372337984611	RoundRobin.exe	d6fea4c6418b3109
-3	125	6655380367927351	CMakeFiles/RoundRobin.dir/CPU_Scheduling_Algorithm/RoundRobin.c.obj	48d428d340abda65
-126	275	6655380369374867	RoundRobin.exe	d6fea4c6418b3109
-3	382	6655392821073801	CMakeFiles/RoundRobin.dir/CPU_Scheduling_Algorithm/RoundRobin.c.obj	48d428d340abda65
-383	927	6655392826405443	RoundRobin.exe	d6fea4c6418b3109
 2	119	6655394032868759	CMakeFiles/RoundRobin.dir/CPU_Scheduling_Algorithm/RoundRobin.c.obj	48d428d340abda65
 120	257	6655394034157985	RoundRobin.exe	d6fea4c6418b3109
+0	159	6655406410274514	CMakeFiles/Priority.dir/CPU_Scheduling_Algorithm/Priority.c.obj	11accbdf26aa4804
+159	321	6655406411944422	Priority.exe	7fd4fac42a501f95
+2	133	6655406871207667	CMakeFiles/Priority.dir/CPU_Scheduling_Algorithm/Priority.c.obj	11accbdf26aa4804
+134	294	6655406872774218	Priority.exe	7fd4fac42a501f95
