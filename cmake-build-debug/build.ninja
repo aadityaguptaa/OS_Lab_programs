@@ -239,6 +239,39 @@ build Linked.exe: C_EXECUTABLE_LINKER__Linked_Debug CMakeFiles/Linked.dir/File_A
   TARGET_PDB = Linked.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target FirstFit
+
+
+#############################################
+# Order-only phony target for FirstFit
+
+build cmake_object_order_depends_target_FirstFit: phony || CMakeFiles/FirstFit.dir
+
+build CMakeFiles/FirstFit.dir/Memory_Management/FirstFit.c.obj: C_COMPILER__FirstFit_Debug C$:/Users/rocko/CLionProjects/OS_5th_Sem/Memory_Management/FirstFit.c || cmake_object_order_depends_target_FirstFit
+  DEP_FILE = CMakeFiles\FirstFit.dir\Memory_Management\FirstFit.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\FirstFit.dir
+  OBJECT_FILE_DIR = CMakeFiles\FirstFit.dir\Memory_Management
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FirstFit
+
+
+#############################################
+# Link the executable FirstFit.exe
+
+build FirstFit.exe: C_EXECUTABLE_LINKER__FirstFit_Debug CMakeFiles/FirstFit.dir/Memory_Management/FirstFit.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FirstFit.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FirstFit.exe
+  TARGET_IMPLIB = libFirstFit.dll.a
+  TARGET_PDB = FirstFit.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target multilevel_queue
 
 
@@ -398,6 +431,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build FCFS: phony FCFS.exe
 
+build FirstFit: phony FirstFit.exe
+
 build Linked: phony Linked.exe
 
 build MFT: phony MFT.exe
@@ -424,7 +459,7 @@ build multilevel_queue: phony multilevel_queue.exe
 #############################################
 # Folder: C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug
 
-build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe Linked.exe multilevel_queue.exe Sequential.exe MFT.exe MVT.exe
+build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe Linked.exe FirstFit.exe multilevel_queue.exe Sequential.exe MFT.exe MVT.exe
 
 # =============================================================================
 # Built-in targets
