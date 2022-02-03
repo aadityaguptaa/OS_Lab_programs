@@ -229,6 +229,39 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target multilevel_queue
+
+
+#############################################
+# Order-only phony target for multilevel_queue
+
+build cmake_object_order_depends_target_multilevel_queue: phony || CMakeFiles/multilevel_queue.dir
+
+build CMakeFiles/multilevel_queue.dir/CPU_Scheduling_Algorithm/multilevel_queue.c.obj: C_COMPILER__multilevel_queue_Debug C$:/Users/rocko/CLionProjects/OS_5th_Sem/CPU_Scheduling_Algorithm/multilevel_queue.c || cmake_object_order_depends_target_multilevel_queue
+  DEP_FILE = CMakeFiles\multilevel_queue.dir\CPU_Scheduling_Algorithm\multilevel_queue.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\multilevel_queue.dir
+  OBJECT_FILE_DIR = CMakeFiles\multilevel_queue.dir\CPU_Scheduling_Algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target multilevel_queue
+
+
+#############################################
+# Link the executable multilevel_queue.exe
+
+build multilevel_queue.exe: C_EXECUTABLE_LINKER__multilevel_queue_Debug CMakeFiles/multilevel_queue.dir/CPU_Scheduling_Algorithm/multilevel_queue.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\multilevel_queue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = multilevel_queue.exe
+  TARGET_IMPLIB = libmultilevel_queue.dll.a
+  TARGET_PDB = multilevel_queue.exe.dbg
+
+# =============================================================================
 # Target aliases.
 
 build FCFS: phony FCFS.exe
@@ -241,6 +274,8 @@ build RoundRobin: phony RoundRobin.exe
 
 build SJF: phony SJF.exe
 
+build multilevel_queue: phony multilevel_queue.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -249,7 +284,7 @@ build SJF: phony SJF.exe
 #############################################
 # Folder: C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug
 
-build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe
+build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe multilevel_queue.exe
 
 # =============================================================================
 # Built-in targets
