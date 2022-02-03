@@ -14,5 +14,6 @@ C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/MVT.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/BestFit.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/producer_consumer.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/dining_philisopher.dir
+C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/bankers_algorithm.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/rebuild_cache.dir

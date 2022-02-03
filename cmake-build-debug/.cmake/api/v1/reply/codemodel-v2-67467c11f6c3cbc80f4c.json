@@ -30,7 +30,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					]
 				}
 			],
@@ -60,7 +61,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					]
 				}
 			],
@@ -155,6 +157,13 @@
 					"id" : "Sequential::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Sequential-Debug-4ef0e6c3fef29b21c2b0.json",
 					"name" : "Sequential",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bankers_algorithm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bankers_algorithm-Debug-803826a226cc5a55f0bd.json",
+					"name" : "bankers_algorithm",
 					"projectIndex" : 0
 				},
 				{

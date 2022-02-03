@@ -32,6 +32,7 @@ void take_fork(int phnum){
     sem_wait(&mutex);
 
     states[phnum] = HUNGRY;
+    printf("Philosopher %d is hungry\n", phnum + 1);
     sleep(1);
     test(phnum);
     sem_post(&mutex);

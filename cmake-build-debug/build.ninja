@@ -568,6 +568,39 @@ build dining_philisopher.exe: C_EXECUTABLE_LINKER__dining_philisopher_Debug CMak
   TARGET_IMPLIB = libdining_philisopher.dll.a
   TARGET_PDB = dining_philisopher.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target bankers_algorithm
+
+
+#############################################
+# Order-only phony target for bankers_algorithm
+
+build cmake_object_order_depends_target_bankers_algorithm: phony || CMakeFiles/bankers_algorithm.dir
+
+build CMakeFiles/bankers_algorithm.dir/bankers_algorithm.c.obj: C_COMPILER__bankers_algorithm_Debug C$:/Users/rocko/CLionProjects/OS_5th_Sem/bankers_algorithm.c || cmake_object_order_depends_target_bankers_algorithm
+  DEP_FILE = CMakeFiles\bankers_algorithm.dir\bankers_algorithm.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\bankers_algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles\bankers_algorithm.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bankers_algorithm
+
+
+#############################################
+# Link the executable bankers_algorithm.exe
+
+build bankers_algorithm.exe: C_EXECUTABLE_LINKER__bankers_algorithm_Debug CMakeFiles/bankers_algorithm.dir/bankers_algorithm.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bankers_algorithm.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bankers_algorithm.exe
+  TARGET_IMPLIB = libbankers_algorithm.dll.a
+  TARGET_PDB = bankers_algorithm.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -620,6 +653,8 @@ build SJF: phony SJF.exe
 
 build Sequential: phony Sequential.exe
 
+build bankers_algorithm: phony bankers_algorithm.exe
+
 build dining_philisopher: phony dining_philisopher.exe
 
 build multilevel_queue: phony multilevel_queue.exe
@@ -634,7 +669,7 @@ build producer_consumer: phony producer_consumer.exe
 #############################################
 # Folder: C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug
 
-build all: phony FIFO.exe OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe Linked.exe FirstFit.exe multilevel_queue.exe Sequential.exe LRU.exe MFT.exe MVT.exe BestFit.exe producer_consumer.exe dining_philisopher.exe
+build all: phony FIFO.exe OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe Linked.exe FirstFit.exe multilevel_queue.exe Sequential.exe LRU.exe MFT.exe MVT.exe BestFit.exe producer_consumer.exe dining_philisopher.exe bankers_algorithm.exe
 
 # =============================================================================
 # Built-in targets
