@@ -3,7 +3,8 @@ C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/Priority.di
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/FCFS.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/SJF.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/RoundRobin.dir
-C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/Linked.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/multilevel_queue.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/Sequential.dir
+C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -9,5 +9,9 @@
 2	119	6655394032868759	CMakeFiles/RoundRobin.dir/CPU_Scheduling_Algorithm/RoundRobin.c.obj	48d428d340abda65
 120	257	6655394034157985	RoundRobin.exe	d6fea4c6418b3109
 2	133	6655406871207667	CMakeFiles/Priority.dir/CPU_Scheduling_Algorithm/Priority.c.obj	11accbdf26aa4804
-0	133	6655896341034549	CMakeFiles/Sequential.dir/File_Allocation/Sequential.c.obj	4db73704698b40ef
 134	292	6655896342589008	Sequential.exe	aec8e430eafa4982
+0	133	6655896341034549	CMakeFiles/Sequential.dir/File_Allocation/Sequential.c.obj	4db73704698b40ef
+0	116	6655908546424380	CMakeFiles/Linked.dir/File_Allocation/Linked.c.obj	f2378885b900bec3
+116	256	6655908547840633	Linked.exe	b1ef641c89217eb6
+2	107	6655908959741534	CMakeFiles/Linked.dir/File_Allocation/Linked.c.obj	f2378885b900bec3
+107	247	6655908961152351	Linked.exe	b1ef641c89217eb6
