@@ -29,7 +29,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -58,7 +59,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -153,6 +155,13 @@
 					"id" : "Sequential::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Sequential-Debug-4ef0e6c3fef29b21c2b0.json",
 					"name" : "Sequential",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dining_philisopher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dining_philisopher-Debug-b4666ea1c376f60e4924.json",
+					"name" : "dining_philisopher",
 					"projectIndex" : 0
 				},
 				{
