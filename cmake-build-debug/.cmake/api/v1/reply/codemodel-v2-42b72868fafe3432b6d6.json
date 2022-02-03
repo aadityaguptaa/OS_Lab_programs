@@ -27,7 +27,9 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13,
+						14
 					]
 				}
 			],
@@ -54,7 +56,9 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13,
+						14
 					]
 				}
 			],
@@ -86,6 +90,13 @@
 					"id" : "FirstFit::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-FirstFit-Debug-7166ac7148d8b1f7bee4.json",
 					"name" : "FirstFit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LRU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LRU-Debug-9c80982c50df02b5435c.json",
+					"name" : "LRU",
 					"projectIndex" : 0
 				},
 				{
@@ -149,6 +160,13 @@
 					"id" : "multilevel_queue::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-multilevel_queue-Debug-f7a3821fc1ba57964775.json",
 					"name" : "multilevel_queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "producer_consumer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-producer_consumer-Debug-9bea1dd27d68022b2e37.json",
+					"name" : "producer_consumer",
 					"projectIndex" : 0
 				}
 			]
