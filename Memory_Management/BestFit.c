@@ -3,6 +3,7 @@
 #include<string.h>
 
 struct Block{
+    int blockNo;
     int blockSize;
     int occupied;
 };
@@ -55,6 +56,7 @@ int main(void){
     for(int i = 0; i < noOfBlocks; i++){
         printf("Enter size of block %d\n", i+1);
         scanf("%d", &blocks[i].blockSize);
+        blocks[i].blockNo = i+1;
     }
 
 
@@ -64,22 +66,25 @@ int main(void){
         scanf("%d", &files[i].fileSize);
     }
 
-    sortFiles(files, noOfFiles);
-    sortBlocks(blocks, noOfBlocks);
+
     for(int i = 0; i < noOfFiles; i++){
+        int m = INT_MAX;
+        int blockNumber;
         for(int j = 0; j < noOfBlocks; j++){
-            if(blocks[j].blockSize >= files[i].fileSize && blocks[j].occupied != 1){
-                files[i].occupiedBlock = j;
-                blocks[j].occupied = 1;
-                files[i].occupied = 1;
-                break;
+            if(blocks[j].occupied != 1 && blocks[j].blockSize - files[i].fileSize >= 0){
+                if(blocks[j].blockSize - files[i].fileSize < m){
+                    m = blocks[j].blockSize - files[i].fileSize;
+                    blockNumber = blocks[j].blockNo;
+                }
             }
         }
+        files[i].occupiedBlock = blockNumber;
+        files[i].occupied = 1;
     }
 
     printf("FILE NO\tFILE SIZE\tOCCUPIED\tBLOCK NO\n");
     for(int i = 0; i < noOfFiles; i++){
-        printf("%d\t\t%d\t\t", i+i, files[i].fileSize);
+        printf("%d\t\t%d\t\t", i+1, files[i].fileSize);
         if(files[i].occupied == 1){
             printf("YES\t\t%d\t\t", files[i].occupiedBlock);
         }else{
