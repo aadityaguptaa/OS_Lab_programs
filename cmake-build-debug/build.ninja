@@ -304,6 +304,39 @@ build Sequential.exe: C_EXECUTABLE_LINKER__Sequential_Debug CMakeFiles/Sequentia
   TARGET_IMPLIB = libSequential.dll.a
   TARGET_PDB = Sequential.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target MFT
+
+
+#############################################
+# Order-only phony target for MFT
+
+build cmake_object_order_depends_target_MFT: phony || CMakeFiles/MFT.dir
+
+build CMakeFiles/MFT.dir/Memory_Management/MFT.c.obj: C_COMPILER__MFT_Debug C$:/Users/rocko/CLionProjects/OS_5th_Sem/Memory_Management/MFT.c || cmake_object_order_depends_target_MFT
+  DEP_FILE = CMakeFiles\MFT.dir\Memory_Management\MFT.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\MFT.dir
+  OBJECT_FILE_DIR = CMakeFiles\MFT.dir\Memory_Management
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MFT
+
+
+#############################################
+# Link the executable MFT.exe
+
+build MFT.exe: C_EXECUTABLE_LINKER__MFT_Debug CMakeFiles/MFT.dir/Memory_Management/MFT.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MFT.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MFT.exe
+  TARGET_IMPLIB = libMFT.dll.a
+  TARGET_PDB = MFT.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -334,6 +367,8 @@ build FCFS: phony FCFS.exe
 
 build Linked: phony Linked.exe
 
+build MFT: phony MFT.exe
+
 build OS_5th_Sem: phony OS_5th_Sem.exe
 
 build Priority: phony Priority.exe
@@ -354,7 +389,7 @@ build multilevel_queue: phony multilevel_queue.exe
 #############################################
 # Folder: C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug
 
-build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe Linked.exe multilevel_queue.exe Sequential.exe
+build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe Linked.exe multilevel_queue.exe Sequential.exe MFT.exe
 
 # =============================================================================
 # Built-in targets

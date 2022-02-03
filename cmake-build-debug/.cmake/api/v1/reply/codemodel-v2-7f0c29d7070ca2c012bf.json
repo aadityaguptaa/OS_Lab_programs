@@ -22,7 +22,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -44,7 +45,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -62,6 +64,13 @@
 					"id" : "Linked::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Linked-Debug-e6d8dc9e9d1527bcb752.json",
 					"name" : "Linked",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MFT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MFT-Debug-51b0569ff3d30e88c17b.json",
+					"name" : "MFT",
 					"projectIndex" : 0
 				},
 				{

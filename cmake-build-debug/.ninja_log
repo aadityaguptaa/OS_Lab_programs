@@ -11,7 +11,11 @@
 2	133	6655406871207667	CMakeFiles/Priority.dir/CPU_Scheduling_Algorithm/Priority.c.obj	11accbdf26aa4804
 134	292	6655896342589008	Sequential.exe	aec8e430eafa4982
 0	133	6655896341034549	CMakeFiles/Sequential.dir/File_Allocation/Sequential.c.obj	4db73704698b40ef
-0	116	6655908546424380	CMakeFiles/Linked.dir/File_Allocation/Linked.c.obj	f2378885b900bec3
-116	256	6655908547840633	Linked.exe	b1ef641c89217eb6
 2	107	6655908959741534	CMakeFiles/Linked.dir/File_Allocation/Linked.c.obj	f2378885b900bec3
 107	247	6655908961152351	Linked.exe	b1ef641c89217eb6
+1	123	6655931007104564	CMakeFiles/MFT.dir/Memory_Management/MFT.c.obj	11f011ab438bfc88
+124	281	6655931008665334	MFT.exe	df41c0e4205aeade
+2	107	6655931747986384	CMakeFiles/MFT.dir/Memory_Management/MFT.c.obj	11f011ab438bfc88
+107	240	6655931749240940	MFT.exe	df41c0e4205aeade
+2	111	6655932799128800	CMakeFiles/MFT.dir/Memory_Management/MFT.c.obj	11f011ab438bfc88
+112	258	6655932800543860	MFT.exe	df41c0e4205aeade
