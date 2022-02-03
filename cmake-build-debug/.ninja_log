@@ -5,9 +5,9 @@
 2	160	6655354500694623	CMakeFiles/SJF.dir/CPU_Scheduling_Algorithm/SJF.c.obj	71510c3b60b2a4d9
 161	335	6655354502389181	SJF.exe	f397746f232e09b3
 134	294	6655406872774218	Priority.exe	7fd4fac42a501f95
-2	111	6655932799128800	CMakeFiles/MFT.dir/Memory_Management/MFT.c.obj	11f011ab438bfc88
 114	246	6655852562822341	multilevel_queue.exe	cd375bf8bec55b2b
 2	119	6655394032868759	CMakeFiles/RoundRobin.dir/CPU_Scheduling_Algorithm/RoundRobin.c.obj	48d428d340abda65
+2	111	6655932799128800	CMakeFiles/MFT.dir/Memory_Management/MFT.c.obj	11f011ab438bfc88
 120	257	6655394034157985	RoundRobin.exe	d6fea4c6418b3109
 2	133	6655406871207667	CMakeFiles/Priority.dir/CPU_Scheduling_Algorithm/Priority.c.obj	11accbdf26aa4804
 134	292	6655896342589008	Sequential.exe	aec8e430eafa4982
@@ -17,7 +17,7 @@
 107	247	6655908961152351	Linked.exe	b1ef641c89217eb6
 1	114	6655936573853146	CMakeFiles/MVT.dir/Memory_Management/MVT.c.obj	6031f754e6d8c381
 114	261	6655936575264508	MVT.exe	bd5b4604d00c603d
-1	127	6655951472805552	CMakeFiles/FirstFit.dir/Memory_Management/FirstFit.c.obj	4bb55ffcf9622a45
-128	326	6655951474533969	FirstFit.exe	3c13190d43e71e7f
 2	109	6655952046326991	CMakeFiles/FirstFit.dir/Memory_Management/FirstFit.c.obj	4bb55ffcf9622a45
 110	245	6655952047666723	FirstFit.exe	3c13190d43e71e7f
+0	124	6655959610560563	CMakeFiles/BestFit.dir/Memory_Management/BestFit.c.obj	87edfc3416861e00
+124	369	6655959613073731	BestFit.exe	6a9453170528c49e

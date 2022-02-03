@@ -403,6 +403,39 @@ build MVT.exe: C_EXECUTABLE_LINKER__MVT_Debug CMakeFiles/MVT.dir/Memory_Manageme
   TARGET_IMPLIB = libMVT.dll.a
   TARGET_PDB = MVT.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BestFit
+
+
+#############################################
+# Order-only phony target for BestFit
+
+build cmake_object_order_depends_target_BestFit: phony || CMakeFiles/BestFit.dir
+
+build CMakeFiles/BestFit.dir/Memory_Management/BestFit.c.obj: C_COMPILER__BestFit_Debug C$:/Users/rocko/CLionProjects/OS_5th_Sem/Memory_Management/BestFit.c || cmake_object_order_depends_target_BestFit
+  DEP_FILE = CMakeFiles\BestFit.dir\Memory_Management\BestFit.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\BestFit.dir
+  OBJECT_FILE_DIR = CMakeFiles\BestFit.dir\Memory_Management
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BestFit
+
+
+#############################################
+# Link the executable BestFit.exe
+
+build BestFit.exe: C_EXECUTABLE_LINKER__BestFit_Debug CMakeFiles/BestFit.dir/Memory_Management/BestFit.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BestFit.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BestFit.exe
+  TARGET_IMPLIB = libBestFit.dll.a
+  TARGET_PDB = BestFit.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -428,6 +461,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build BestFit: phony BestFit.exe
 
 build FCFS: phony FCFS.exe
 
@@ -459,7 +494,7 @@ build multilevel_queue: phony multilevel_queue.exe
 #############################################
 # Folder: C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug
 
-build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe Linked.exe FirstFit.exe multilevel_queue.exe Sequential.exe MFT.exe MVT.exe
+build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe Linked.exe FirstFit.exe multilevel_queue.exe Sequential.exe MFT.exe MVT.exe BestFit.exe
 
 # =============================================================================
 # Built-in targets
