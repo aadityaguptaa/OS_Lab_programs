@@ -23,7 +23,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -46,7 +47,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -71,6 +73,13 @@
 					"id" : "MFT::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-MFT-Debug-51b0569ff3d30e88c17b.json",
 					"name" : "MFT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MVT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MVT-Debug-e3ccdba0713f400bf033.json",
+					"name" : "MVT",
 					"projectIndex" : 0
 				},
 				{
