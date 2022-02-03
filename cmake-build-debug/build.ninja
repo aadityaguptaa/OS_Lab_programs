@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target FIFO
+
+
+#############################################
+# Order-only phony target for FIFO
+
+build cmake_object_order_depends_target_FIFO: phony || CMakeFiles/FIFO.dir
+
+build CMakeFiles/FIFO.dir/Page_Replacement/FIFO.c.obj: C_COMPILER__FIFO_Debug C$:/Users/rocko/CLionProjects/OS_5th_Sem/Page_Replacement/FIFO.c || cmake_object_order_depends_target_FIFO
+  DEP_FILE = CMakeFiles\FIFO.dir\Page_Replacement\FIFO.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\FIFO.dir
+  OBJECT_FILE_DIR = CMakeFiles\FIFO.dir\Page_Replacement
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FIFO
+
+
+#############################################
+# Link the executable FIFO.exe
+
+build FIFO.exe: C_EXECUTABLE_LINKER__FIFO_Debug CMakeFiles/FIFO.dir/Page_Replacement/FIFO.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FIFO.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FIFO.exe
+  TARGET_IMPLIB = libFIFO.dll.a
+  TARGET_PDB = FIFO.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target OS_5th_Sem
 
 
@@ -466,6 +499,8 @@ build BestFit: phony BestFit.exe
 
 build FCFS: phony FCFS.exe
 
+build FIFO: phony FIFO.exe
+
 build FirstFit: phony FirstFit.exe
 
 build Linked: phony Linked.exe
@@ -494,7 +529,7 @@ build multilevel_queue: phony multilevel_queue.exe
 #############################################
 # Folder: C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug
 
-build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe Linked.exe FirstFit.exe multilevel_queue.exe Sequential.exe MFT.exe MVT.exe BestFit.exe
+build all: phony FIFO.exe OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe Linked.exe FirstFit.exe multilevel_queue.exe Sequential.exe MFT.exe MVT.exe BestFit.exe
 
 # =============================================================================
 # Built-in targets
