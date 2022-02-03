@@ -172,18 +172,6 @@ build SJF.exe: C_EXECUTABLE_LINKER__SJF_Debug CMakeFiles/SJF.dir/CPU_Scheduling_
   TARGET_IMPLIB = libSJF.dll.a
   TARGET_PDB = SJF.exe.dbg
 
-
-#############################################
-# Utility command for rebuild_cache
-
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\rocko\CLionProjects\OS_5th_Sem\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\rocko\CLionProjects\OS_5th_Sem -BC:\Users\rocko\CLionProjects\OS_5th_Sem\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
-
 # =============================================================================
 # Object build statements for EXECUTABLE target RoundRobin
 
@@ -262,6 +250,51 @@ build multilevel_queue.exe: C_EXECUTABLE_LINKER__multilevel_queue_Debug CMakeFil
   TARGET_PDB = multilevel_queue.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Sequential
+
+
+#############################################
+# Order-only phony target for Sequential
+
+build cmake_object_order_depends_target_Sequential: phony || CMakeFiles/Sequential.dir
+
+build CMakeFiles/Sequential.dir/File_Allocation/Sequential.c.obj: C_COMPILER__Sequential_Debug C$:/Users/rocko/CLionProjects/OS_5th_Sem/File_Allocation/Sequential.c || cmake_object_order_depends_target_Sequential
+  DEP_FILE = CMakeFiles\Sequential.dir\File_Allocation\Sequential.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\Sequential.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sequential.dir\File_Allocation
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Sequential
+
+
+#############################################
+# Link the executable Sequential.exe
+
+build Sequential.exe: C_EXECUTABLE_LINKER__Sequential_Debug CMakeFiles/Sequential.dir/File_Allocation/Sequential.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Sequential.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Sequential.exe
+  TARGET_IMPLIB = libSequential.dll.a
+  TARGET_PDB = Sequential.exe.dbg
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\rocko\CLionProjects\OS_5th_Sem\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\rocko\CLionProjects\OS_5th_Sem -BC:\Users\rocko\CLionProjects\OS_5th_Sem\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build FCFS: phony FCFS.exe
@@ -274,6 +307,8 @@ build RoundRobin: phony RoundRobin.exe
 
 build SJF: phony SJF.exe
 
+build Sequential: phony Sequential.exe
+
 build multilevel_queue: phony multilevel_queue.exe
 
 # =============================================================================
@@ -284,7 +319,7 @@ build multilevel_queue: phony multilevel_queue.exe
 #############################################
 # Folder: C:/Users/rocko/CLionProjects/OS_5th_Sem/cmake-build-debug
 
-build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe multilevel_queue.exe
+build all: phony OS_5th_Sem.exe Priority.exe FCFS.exe SJF.exe RoundRobin.exe multilevel_queue.exe Sequential.exe
 
 # =============================================================================
 # Built-in targets
